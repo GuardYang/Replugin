@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btn.setOnClickListener {
-            RePlugin.startActivity(this@MainActivity, RePlugin.createIntent("demo6", "com.ysr.plugunit1.MainActivity"))
+            RePlugin.startActivity(this@MainActivity, RePlugin.createIntent("demo10", "com.ysr.plugunit1.MainActivity"))
 //            RePlugin.startActivity(this@MainActivity, RePlugin.createIntent("demo1", "com.qihoo360.replugin.sample.demo1.MainActivity"))
         }
     }

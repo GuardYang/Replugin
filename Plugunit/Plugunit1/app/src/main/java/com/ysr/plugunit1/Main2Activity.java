@@ -1,9 +1,10 @@
 package com.ysr.plugunit1;
 
-import android.app.Activity;
 import android.os.Bundle;
 
-public class Main2Activity extends Activity {
+import com.qihoo360.replugin.loader.a.PluginAppCompatActivity;
+
+public class Main2Activity extends PluginAppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
