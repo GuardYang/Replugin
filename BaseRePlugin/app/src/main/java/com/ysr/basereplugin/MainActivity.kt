@@ -12,15 +12,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         btn.setOnClickListener {
             RePlugin.startActivity(this@MainActivity, RePlugin.createIntent("firstapp", "com.ysr.plugunit1.MainActivity"))
-//            RePlugin.startActivity(this@MainActivity, RePlugin.createIntent("demo1", "com.qihoo360.replugin.sample.demo1.MainActivity"))
         }
         btnTwo.setOnClickListener {
-            RePlugin.startActivity(this@MainActivity, RePlugin.createIntent("firstapp", "com.ysr.plugunit1.MainActivity"))
-//            RePlugin.startActivity(this@MainActivity, RePlugin.createIntent("demo1", "com.qihoo360.replugin.sample.demo1.MainActivity"))
+            RePlugin.startActivity(this@MainActivity, RePlugin.createIntent("twoapp", "com.ysr.plugunit2.MainActivity"))
         }
         butThree.setOnClickListener {
-            RePlugin.startActivity(this@MainActivity, RePlugin.createIntent("firstapp", "com.ysr.plugunit1.MainActivity"))
-//            RePlugin.startActivity(this@MainActivity, RePlugin.createIntent("demo1", "com.qihoo360.replugin.sample.demo1.MainActivity"))
+            RePlugin.startActivity(this@MainActivity, RePlugin.createIntent("demo1", "com.qihoo360.replugin.sample.demo1.MainActivity"))
         }
     }
 }
